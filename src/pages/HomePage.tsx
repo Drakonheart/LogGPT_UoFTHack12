@@ -10,6 +10,7 @@ const HomePage: React.FC = () => {
     <div className="home_page_main">
       <ChatHud story={story} />
       <InfoHud story={story} setStory={setStory} />
+
     </div>
   );
 };
